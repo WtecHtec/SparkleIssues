@@ -21,14 +21,14 @@ const ProductPage = () => {
         {/* Open Graph tags for social sharing */}
         <meta property="og:title" content="SparkleEasy - Simplify Your macOS App Management" />
         <meta property="og:description" content="Generate Sparkle configurations and manage app permissions with ease. Perfect for macOS developers." />
-        <meta property="og:image" content="/path-to-your-image.png" />
-        <meta property="og:url" content="https://your-domain.com/sparkleeasy" />
+        <meta property="og:image" content="/vite.png" />
+        <meta property="og:url" content="https://sparkleeasy.pages.dev/" />
         
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="SparkleEasy - macOS App Management Made Simple" />
         <meta name="twitter:description" content="The ultimate tool for Sparkle configuration generation and permission management on macOS." />
-        <meta name="twitter:image" content="/path-to-your-image.png" />
+        <meta name="twitter:image" content="/vite.png" />
       </Head>
 
       <div style={{ padding: '40px 20px' }}>
@@ -149,10 +149,10 @@ const ProductPage = () => {
             Join thousands of developers who are already using SparkleEasy
           </Paragraph>
           <Space size="large">
-            <Button type="primary" size="large">
+            <Button type="primary" size="large" onClick={() => window.open("https://github.com/WtecHtec/SparkleIssues/releases/tag/v0.0.1", "_brank")}>
               Download Now
             </Button>
-            <Button size="large">
+            <Button size="large" onClick={() => window.open("https://www.youtube.com/watch?v=_ebL7AyCYmA", "_brank")}>
               Learn More
             </Button>
           </Space>
