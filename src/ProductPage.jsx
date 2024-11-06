@@ -149,7 +149,7 @@ const ProductPage = () => {
             Join thousands of developers who are already using SparkleEasy
           </Paragraph>
           <Space size="large">
-            <Button type="primary" size="large" onClick={() => window.open("https://github.com/WtecHtec/SparkleIssues/releases/tag/v0.0.1", "_brank")}>
+            <Button type="primary" size="large" onClick={() => window.open("https://github.com/WtecHtec/SparkleIssues/releases", "_brank")}>
               Download Now
             </Button>
             <Button size="large" onClick={() => window.open("https://www.youtube.com/watch?v=_ebL7AyCYmA", "_brank")}>

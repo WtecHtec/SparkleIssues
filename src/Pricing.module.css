@@ -1,0 +1,84 @@
+.container {
+ padding: 48px 24px;
+ max-width: 1200px;
+ margin: 0 auto;
+}
+
+.header {
+ text-align: center;
+}
+
+.subtitle {
+ font-size: 18px;
+}
+
+.pricingCard {
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+}
+
+.popularCard {
+ border-color: #1890ff;
+}
+
+.priceSection {
+ margin-bottom: 24px;
+}
+
+.price {
+ margin: 0 !important;
+}
+
+.period {
+ font-size: 16px;
+}
+
+.featureList {
+ flex: 1;
+}
+
+.featureItem {
+ padding: 8px 0;
+}
+
+.included {
+ color: #52c41a;
+}
+
+.excluded {
+ color: #d9d9d9;
+}
+
+.highlightedFeature {
+ color: #1890ff;
+ font-weight: bold;
+}
+
+.actionButton {
+ margin-top: 24px;
+}
+
+.faqSection {
+ text-align: center;
+}
+
+.faqList {
+ max-width: 800px;
+ margin: 24px auto;
+ text-align: left;
+}
+
+.support {
+ text-align: center;
+}
+
+@media (max-width: 768px) {
+ .container {
+   padding: 24px 16px;
+ }
+ 
+ .subtitle {
+   font-size: 16px;
+ }
+}
